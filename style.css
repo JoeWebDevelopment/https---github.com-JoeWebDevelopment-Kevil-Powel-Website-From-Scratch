@@ -378,14 +378,22 @@ h1{
 
 
     }
+    [aria-controls="primary-nav"]{
+      display: none;
+    }
 
     @media (width < 500px){
       [aria-expanded="true"] + .primary-navigation{
         display: block;
 
       }
+
+      [aria-controls="primary-nav"]{
+        display: block;
+      }
     }
 
+    
     .card{
       display: grid;
       background-color: var(--background-light);
