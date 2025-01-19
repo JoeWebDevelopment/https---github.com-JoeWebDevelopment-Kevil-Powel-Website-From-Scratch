@@ -350,6 +350,7 @@ h1{
       }
       
       @media(width < 500px){
+        display: none;
         z-index: 10;
         position: absolute;
         top: 0;
@@ -376,6 +377,13 @@ h1{
 
 
 
+    }
+
+    @media (width < 500px){
+      [aria-expanded="true"] + .primary-navigation{
+        display: block;
+
+      }
     }
 
     .card{
