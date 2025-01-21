@@ -349,7 +349,7 @@ h1{
         text-decoration: none;
       }
       
-      @media(width < 500px){
+      @media(width < 600px){
         display: none;
         z-index: 10;
         position: absolute;
@@ -382,7 +382,7 @@ h1{
       display: none;
     }
 
-    @media (width < 500px){
+    @media (width < 600px){
       [aria-expanded="true"] + .primary-navigation{
         display: block;
 
